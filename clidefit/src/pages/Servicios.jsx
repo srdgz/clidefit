@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Servicios = () => {
   return (
     <div className="mt-32 p-8 xl:mx-32">
-      <h1 className="text-4xl text-blue-900 font-bold mb-6">
+      <h1 className="text-4xl text-blue-900 font-bold text-center mb-6">
         Nuestros Servicios
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-32">
         {/* Servicio 1 */}
         <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col h-full">
           <img
