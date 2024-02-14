@@ -26,20 +26,17 @@ const Home = () => {
       <CardDer
         img={ClidefitFisioAvanzada}
         title="Fisioterapia avanzada"
-        description="Descubre la excelencia en fisioterapia avanzada, donde nuestro
-            equipo de profesionales altamente capacitados utiliza las últimas
-            técnicas y tecnologías para acelerar tu recuperación y mejorar tu
-            calidad de vida."
+        description="Enfrenta el dolor con lo mejor en tecnología y experiencia. Nuestra fisioterapia avanzada te devuelve la libertad de movimiento y el bienestar que mereces."
       />
       <CardIzq
         img={ClidefitPsico}
         title="Psicología para todas las edades"
-        description="En Clidefit, nos preocupamos por tu bienestar mental tanto como tu salud física. Nuestros servicios de psicología te brindan el apoyo necesario para enfrentar desafíos emocionales y encontrar el equilibrio en tu vida."
+        description="Descubre la mejor versión de ti mismo con nuestra ayuda psicológica, donde cada sesión es un paso hacia tu bienestar."
       />
       <CardDer
         img={ClidefitNutricion}
-        title="Nutrición"
-        description="La nutrición es clave para un cuerpo saludable. Nuestros expertos en nutrición te guiarán hacia hábitos alimenticios equilibrados y personalizados que te ayudarán a alcanzar tus metas de salud."
+        title="Dietética"
+        description="¡Transforma tu estilo de vida y alcanza tus metas de bienestar con el servicio de dietética de Clidefit!"
       />
       <CardIzq
         img={ClidefitPilates}

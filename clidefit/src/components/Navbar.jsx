@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="ml-4">
           <h3 className="text-white">
             <i className="fa-solid fa-phone"></i> Llama sin compromiso 927 618
-            621
+            621 ó 623 537 891
           </h3>
         </div>
         <div className="mr-4">
@@ -37,7 +37,21 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-instagram fa-lg text-white hover:text-indigo-900"></i>
+            <i className="fab fa-instagram fa-lg text-white hover:text-indigo-900 px-4"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61555394145658"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-facebook fa-lg text-white hover:text-indigo-900 pe-4"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@clidefit?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-tiktok fa-lg text-white hover:text-indigo-900"></i>
           </a>
         </div>
       </section>

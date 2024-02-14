@@ -58,6 +58,20 @@ const Footer = () => {
             >
               <i className="fab fa-instagram fa-2xl hover:text-indigo-900 text-white"></i>
             </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61555394145658"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-facebook fa-2xl text-white hover:text-indigo-900"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@clidefit?is_from_webapp=1&sender_device=pc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-tiktok fa-2xl text-white hover:text-indigo-900"></i>
+            </a>
           </div>
         </nav>
       </footer>

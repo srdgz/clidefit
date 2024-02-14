@@ -85,7 +85,7 @@ const Contacto = () => {
             <input
               type="email"
               name="email"
-              placeholder="your@email.com"
+              placeholder="tuemail@email.com"
               value={formData.email}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-900"
