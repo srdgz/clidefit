@@ -1,6 +1,6 @@
 const Equipo = () => {
   return (
-    <div className="p-8 mt-32">
+    <div className="p-8 mt-32 xl:mx-32">
       <div className="text-center mb-32">
         <img
           src="https://placehold.co/700x500"
