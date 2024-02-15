@@ -1,7 +1,7 @@
 const Cookies = () => {
   return (
-    <div className="max-w-3xl my-10 mx-5 lg:mx-auto text-start">
-      <h1 className="text-indigo-900 font-semibold text-xl mb-3">
+    <div className="max-w-3xl mt-32 mb-32 lg:mt-40 mx-5 lg:mx-auto text-start">
+      <h1 className="text-indigo-900 font-semibold text-2xl mb-3">
         Política de Cookies
       </h1>
       <p className="text-gray-500 mb-3">
@@ -27,8 +27,8 @@ const Cookies = () => {
         {" "}
         La entidad responsable de la recogida, procesamiento y utilización de
         tus datos personales, en el sentido establecido por la Ley de Protección
-        de Datos Personales es la página CLIDEFIT, propiedad de Alejandro
-        Rodríguez, C. Berna, 21, 10005 Cáceres.
+        de Datos Personales es CLIDEFIT S.L, con domicilio en C. Berna, 21-22,
+        10005 Cáceres (España)
       </p>
       <h2 className="text-indigo-900 font-semibold text-lg mb-3">
         {" "}
@@ -62,16 +62,16 @@ const Cookies = () => {
         de sesión o permanentes. Las que expiran cuando el usuario cierra el
         navegador. Las que expiran en función de cuando se cumpla el objetivo
         para el que sirven (por ejemplo, para que el usuario se mantenga
-        identificado en los servicios de Alejandro Rodríguez) o bien cuando se
-        borran manualmente. Nombre Tipo Caducidad Finalidad Clase __utma De
-        Terceros (Google Analytics) 2 años Se usa para distinguir usuarios y
-        sesiones. No Exenta __utmb De Terceros (Google Analytics) 30 minutos Se
-        usa para determinar nuevas sesiones o visitas No Exenta __utmc De
-        Terceros (Google Analytics) Al finalizar la sesión Se configura para su
-        uso con Urchin No Exenta __utmz De Terceros (Google Analytics) 6 meses
-        Almacena el origen o la campaña que explica cómo el usuario ha llegado
-        hasta la página web No Exenta Adicionalmente, en función de su objetivo,
-        las cookies pueden clasificarse de la siguiente forma: Cookies de
+        identificado en los servicios de Clidefit S.L.) o bien cuando se borran
+        manualmente. Nombre Tipo Caducidad Finalidad Clase __utma De Terceros
+        (Google Analytics) 2 años Se usa para distinguir usuarios y sesiones. No
+        Exenta __utmb De Terceros (Google Analytics) 30 minutos Se usa para
+        determinar nuevas sesiones o visitas No Exenta __utmc De Terceros
+        (Google Analytics) Al finalizar la sesión Se configura para su uso con
+        Urchin No Exenta __utmz De Terceros (Google Analytics) 6 meses Almacena
+        el origen o la campaña que explica cómo el usuario ha llegado hasta la
+        página web No Exenta Adicionalmente, en función de su objetivo, las
+        cookies pueden clasificarse de la siguiente forma: Cookies de
         rendimiento Este tipo de Cookie recuerda sus preferencias para las
         herramientas que se encuentran en los servicios, por lo que no tiene que
         volver a configurar el servicio cada vez que usted visita. A modo de
@@ -104,7 +104,7 @@ const Cookies = () => {
         Cookies de analíticas Cada vez que un usuario visita un servicio, una
         herramienta de un proveedor externo genera una cookie analítica en el
         ordenador del usuario. Esta cookie que sólo se genera en la visita,
-        servirá en próximas visitas a los servicios de Alejandro Rodríguez para
+        servirá en próximas visitas a los servicios de Clidefit S.L. para
         identificar de forma anónima al visitante. Los objetivos principales que
         se persiguen son: Permitir la identificación anónima de los usuarios
         navegantes a través de la cookie (identifica navegadores y dispositivos,
@@ -113,27 +113,27 @@ const Cookies = () => {
         contenidos más visitados y por lo tanto más atractivos para los usuarios
         Saber si el usuario que está accediendo es nuevo o repite visita.
         Importante: Salvo que el usuario decida registrarse en un servicio de
-        Alejandro Rodríguez, la cookie nunca irá asociada a ningún dato de
-        carácter personal que pueda identificarle. Dichas cookies sólo serán
-        utilizadas con propósitos estadísticos que ayuden a la optimización de
-        la experiencia de los usuarios en el sitio. Cookies de publicidad Este
-        tipo de cookies permiten ampliar la información de los anuncios
-        mostrados a cada usuario anónimo en los servicios de Alejandro
-        Rodríguez. Entre otros, se almacena la duración o frecuencia de
-        visualización de posiciones publicitarias, la interacción con las
-        mismas, o los patrones de navegación y/o comportamientos del usuario ya
-        que ayudan a conformar un perfil de interés publicitario. De este modo,
-        permiten ofrecer publicidad afín a los intereses del usuario. Cookies
-        publicitarias de terceros Además de la publicidad gestionada por las
-        webs de Alejandro Rodríguez en sus servicios, las webs de Alejandro
-        Rodríguez ofrecen a sus anunciantes la opción de servir anuncios a
-        través de terceros (“Ad-Servers”). De este modo, estos terceros pueden
-        almacenar cookies enviadas desde los servicios de Alejandro Rodríguez
-        procedentes de los navegadores de los usuarios, así como acceder a los
-        datos que en ellas se guardan. Las empresas que generan estas cookies
-        tienen sus propias políticas de privacidad. En la actualidad, las webs
-        de Alejandro Rodríguez utilizan la plataforma Doubleclick (Google) para
-        gestionar estos servicios. Para más información, acuda a
+        Clidefit S.L., la cookie nunca irá asociada a ningún dato de carácter
+        personal que pueda identificarle. Dichas cookies sólo serán utilizadas
+        con propósitos estadísticos que ayuden a la optimización de la
+        experiencia de los usuarios en el sitio. Cookies de publicidad Este tipo
+        de cookies permiten ampliar la información de los anuncios mostrados a
+        cada usuario anónimo en los servicios de Clidefit S.L.. Entre otros, se
+        almacena la duración o frecuencia de visualización de posiciones
+        publicitarias, la interacción con las mismas, o los patrones de
+        navegación y/o comportamientos del usuario ya que ayudan a conformar un
+        perfil de interés publicitario. De este modo, permiten ofrecer
+        publicidad afín a los intereses del usuario. Cookies publicitarias de
+        terceros además de la publicidad gestionada por las webs de Clidefit
+        S.L. en sus servicios, las webs de Clidefit S.L. ofrecen a sus
+        anunciantes la opción de servir anuncios a través de terceros
+        (“Ad-Servers”). De este modo, estos terceros pueden almacenar cookies
+        enviadas desde los servicios de Clidefit S.L. procedentes de los
+        navegadores de los usuarios, así como acceder a los datos que en ellas
+        se guardan. Las empresas que generan estas cookies tienen sus propias
+        políticas de privacidad. En la actualidad, las webs de Clidefit S.L.
+        utilizan la plataforma Doubleclick (Google) para gestionar estos
+        servicios. Para más información, acuda a
         http://www.google.es/policies/privacy/ads/#toc-doubleclick y a
         http://www.google.es/policies/privacy/ads/.{" "}
       </p>
@@ -177,14 +177,14 @@ const Cookies = () => {
       </h2>
       <p className="text-gray-500 mb-3">
         {" "}
-        Las webs de Alejandro Rodríguez pueden modificar esta Política de
-        Cookies en función de exigencias legislativas, reglamentarias, o con la
-        finalidad de adaptar dicha política a las instrucciones dictadas por la
-        Agencia Española de Protección de Datos, por ello se aconseja a los
-        usuarios que la visiten periódicamente. Cuando se produzcan cambios
-        significativos en esta Política de Cookies, estos se comunicarán a los
-        usuarios bien mediante la web o a través de correo electrónico a los
-        usuarios registrados.
+        Las webs de Clidefit S.L. pueden modificar esta Política de Cookies en
+        función de exigencias legislativas, reglamentarias, o con la finalidad
+        de adaptar dicha política a las instrucciones dictadas por la Agencia
+        Española de Protección de Datos, por ello se aconseja a los usuarios que
+        la visiten periódicamente. Cuando se produzcan cambios significativos en
+        esta Política de Cookies, estos se comunicarán a los usuarios bien
+        mediante la web o a través de correo electrónico a los usuarios
+        registrados.
       </p>
     </div>
   );

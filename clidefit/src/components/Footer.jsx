@@ -10,17 +10,29 @@ const Footer = () => {
           <header className="footer-title text-white opacity-100 md:text-lg">
             Servicios
           </header>
-          <a className="link link-hover text-white">Fisioterapia</a>
-          <a className="link link-hover text-white">Psicología</a>
-          <a className="link link-hover text-white">Nutrición</a>
-          <a className="link link-hover text-white">Pilates</a>
+          <Link to={"/fisioterapia"} className="link link-hover text-white">
+            Fisioterapia
+          </Link>
+          <Link to={"/psicologia"} className="link link-hover text-white">
+            Psicología
+          </Link>
+          <Link to={"/nutricion"} className="link link-hover text-white">
+            Nutrición
+          </Link>
+          <Link to={"/pilates"} className="link link-hover text-white">
+            Pilates
+          </Link>
         </nav>
         <nav>
           <header className="footer-title text-white opacity-100 md:text-lg">
             Clidefit
           </header>
-          <a className="link link-hover text-white">Sobre nosotros</a>
-          <a className="link link-hover text-white">Contacto</a>
+          <Link to={"/equipo"} className="link link-hover text-white">
+            Sobre nosotros
+          </Link>
+          <Link to={"/contacto"} className="link link-hover text-white">
+            Contacto
+          </Link>
         </nav>
         <nav>
           <header className="footer-title text-white opacity-100 md:text-lg">

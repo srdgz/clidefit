@@ -119,7 +119,7 @@ const Contacto = () => {
               <span className="text-sm">
                 Acepto los{" "}
                 <Link
-                  to="#"
+                  to={"/privacidad"}
                   className="text-blue-600 hover:underline dark:text-blue-500"
                 >
                   términos y condiciones
