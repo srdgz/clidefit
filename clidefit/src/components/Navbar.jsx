@@ -1,10 +1,16 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import ClidefitLogoCompleto1 from "../assets/ClidefitLogoCompleto1.png";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [navbarDropdownOpen, setNavbarDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const closeDropdown = () => {
+    setNavbarDropdownOpen(false);
+  };
 
   useEffect(() => {
     const handleClickOutside = () => {
@@ -21,7 +27,9 @@ const Navbar = () => {
   const handleDropdownClick = (e) => {
     e.stopPropagation();
     setIsDropdownOpen(!isDropdownOpen);
+    setNavbarDropdownOpen(!navbarDropdownOpen);
   };
+
   return (
     <nav className="navbar bg-base-100 shadow-md text-blue-900 lg:pt-10 w-full fixed top-0 z-50">
       <section className="hidden lg:flex fixed top-0 left-0 w-full bg-teal-500 px-10 justify-between items-center">
@@ -130,30 +138,48 @@ const Navbar = () => {
               Inicio
             </Link>
           </li>
-          <div className="dropdown dropdown-hover mt-2 px-3">
+          <div
+            className="dropdown dropdown-hover mt-2 px-3"
+            onMouseOver={() => setNavbarDropdownOpen(true)}
+          >
             <label tabIndex={0}>
               <Link
                 to="/servicios"
-                className="hover:bg-white hover:underline hover:underline-offset-4 hover:text-blue-900"
+                className={`hover:bg-white hover:underline hover:underline-offset-4 hover:text-blue-900${
+                  navbarDropdownOpen ? "block" : "hidden"
+                }`}
+                ref={dropdownRef}
+                onClick={handleDropdownClick}
               >
                 Servicios <i className="fa-solid fa-chevron-down"></i>
               </Link>
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu mt-2 p-2 shadow bg-base-100 rounded-box w-64 text-lg"
+              className={`dropdown-content z-[1] menu mt-2 p-2 shadow bg-base-100 rounded-box w-64 text-lg ${
+                navbarDropdownOpen ? "block" : "hidden"
+              }`}
+              ref={dropdownRef}
             >
               <li>
-                <Link to="/fisioterapia">Fisioterapia Avanzada</Link>
+                <Link to="/fisioterapia" onClick={closeDropdown}>
+                  Fisioterapia Avanzada
+                </Link>
               </li>
               <li>
-                <Link to="/psicologia">Psicología</Link>
+                <Link to="/psicologia" onClick={closeDropdown}>
+                  Psicología
+                </Link>
               </li>
               <li>
-                <Link to="/nutricion">Nutrición</Link>
+                <Link to="/nutricion" onClick={closeDropdown}>
+                  Nutrición
+                </Link>
               </li>
               <li>
-                <Link to="/pilates">Pilates</Link>
+                <Link to="/pilates" onClick={closeDropdown}>
+                  Pilates
+                </Link>
               </li>
             </ul>
           </div>
