@@ -32,7 +32,7 @@ const Equipo = () => {
             alt="Fisioterapia"
             className="mx-auto mb-4"
           />
-          <p className="text-blue-900 font-semibold">Nombre Miembro 2</p>
+          <p className="text-blue-900 font-semibold">Sergio Contreras</p>
           <p className="text-gray-500 text-md">Fisioterapeuta</p>
         </div>
 

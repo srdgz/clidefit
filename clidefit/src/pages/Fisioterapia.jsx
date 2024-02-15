@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Fisioterapia = () => {
   return (
     <div className="mt-32 p-8 xl:mx-32">
@@ -29,7 +31,7 @@ const Fisioterapia = () => {
         </div>
 
         {/* Información sobre los servicios */}
-        <div className="flex-grow lg:mt-0 mt-8 mb-32">
+        <div className="flex-grow mt-8 lg:mt-0 mb-20">
           <h2 className="text-2xl text-blue-900 font-semibold mb-4">
             Terapia Diamagnética
           </h2>
@@ -40,7 +42,7 @@ const Fisioterapia = () => {
             resolución de múltiples patologías.
           </p>
 
-          <h3 className="text-xl text-blue-900 font-semibold mb-2">
+          <h3 className="text-lg text-blue-900 font-semibold mb-2">
             Bomba diamagnética CTU Mega 20:
           </h3>
           <p className="text-gray-500 text-lg mb-4 flex-grow">
@@ -81,7 +83,7 @@ const Fisioterapia = () => {
             odontología, dermatología, y síndromes complejos.
           </p>
 
-          <h3 className="text-xl text-blue-900 font-semibold mb-2">
+          <h3 className="text-lg text-blue-900 font-semibold mb-2">
             Onda de choque focal CTU S wave:
           </h3>
           <p className="text-gray-500 text-lg mb-4 flex-grow">
@@ -105,7 +107,7 @@ const Fisioterapia = () => {
           <h2 className="text-2xl text-blue-900 font-semibold mt-10 mb-4">
             Fisioterapia Invasiva
           </h2>
-          <h3 className="text-xl text-blue-900 font-semibold mb-2">
+          <h3 className="text-lg text-blue-900 font-semibold mb-2">
             Electrolisis Percutánea Intratisular (EPI):
           </h3>
           <p className="text-gray-500 text-lg mb-4 flex-grow">
@@ -114,7 +116,7 @@ const Fisioterapia = () => {
             reparación de lesiones en tejidos blandos.
           </p>
 
-          <h3 className="text-xl text-blue-900 font-semibold mb-2">
+          <h3 className="text-lg text-blue-900 font-semibold mb-2">
             Neuromodulación Percutánea:
           </h3>
           <p className="text-gray-500 text-lg mb-4 flex-grow">
@@ -123,7 +125,7 @@ const Fisioterapia = () => {
             del dolor y las disfunciones neuro-músculoesqueléticas.
           </p>
 
-          <h3 className="text-xl text-blue-900 font-semibold mb-2">
+          <h3 className="text-lg text-blue-900 font-semibold mb-2">
             Electropunción Seca.
           </h3>
 
@@ -141,6 +143,15 @@ const Fisioterapia = () => {
             restricciones y mejorar la funcionalidad del paciente.
           </p>
         </div>
+      </div>
+      <div className="mb-14">
+        <Link
+          to="https://app.clinic-cloud.com/citaonline.php/CLIDEFIT"
+          target="_blank"
+          className="btn rounded-full shadow-lg bg-blue-900 text-white border-2 border-blue-900 hover:bg-white hover:text-gray-800 hover:border-blue-900"
+        >
+          RESERVA TU CITA
+        </Link>
       </div>
     </div>
   );
