@@ -1,16 +1,25 @@
 import "./WhatsappButton.css";
-import whatsapp from "../../assets/whatsapp.png";
+import whatsappIcon from "../../assets/whatsapp.png";
 
 const WhatsAppButton = () => {
+  const phoneNumber = "+34623537891";
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  const openWhatsApp = () => {
+    if (isMobile) {
+      window.location.href = `whatsapp://send?phone=${phoneNumber}`;
+    } else {
+      window.open(
+        `https://web.whatsapp.com/send?phone=${phoneNumber}`,
+        "_blank"
+      );
+    }
+  };
+
   return (
-    <a
-      href="https://web.whatsapp.com/send?phone=+34623537891"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="whatsapp-button"
-    >
-      <img src={whatsapp} alt="WhatsApp" className="whatsapp-icon" />
-    </a>
+    <button onClick={openWhatsApp} className="whatsapp-button">
+      <img src={whatsappIcon} alt="WhatsApp" className="whatsapp-icon" />
+    </button>
   );
 };
 
