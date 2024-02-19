@@ -44,7 +44,7 @@ const Equipo = () => {
             className="mx-auto mb-4"
           />
           <p className="text-blue-900 font-semibold">Alejandro Rodríguez</p>
-          <p className="text-gray-500 text-md">Nutricionista</p>
+          <p className="text-gray-500 text-md">Dietista</p>
         </div>
 
         {/* Cuarto miembro del equipo */}
