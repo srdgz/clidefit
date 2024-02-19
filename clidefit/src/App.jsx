@@ -1,5 +1,6 @@
 import Router from "./routes/Router.jsx";
 import CookieConsent from "react-cookie-consent";
+import WhatsAppButton from "./components/Whatsapp/WhatsappButton.jsx";
 
 function App() {
   return (
@@ -8,7 +9,12 @@ function App() {
       <CookieConsent
         location="bottom"
         cookieName="ClidefitCookies"
-        style={{ background: "#14B8A6" }}
+        style={{
+          background: "#14B8A6",
+          zIndex: 1001,
+          padding: "5px 30px 5px 30px",
+          alignItems: "center",
+        }}
         buttonText="Acepto"
         declineButtonText="No, gracias"
         buttonStyle={{
@@ -34,6 +40,7 @@ function App() {
         </a>
         .
       </CookieConsent>
+      <WhatsAppButton />
     </>
   );
 }
