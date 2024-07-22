@@ -54,7 +54,7 @@ const Equipo = () => {
             alt="Psicología"
             className="mx-auto mb-4"
           />
-          <p className="text-blue-900 font-semibold">Nombre Miembro 4</p>
+          <p className="text-blue-900 font-semibold">Laura Morales</p>
           <p className="text-gray-500 text-md">Psicóloga</p>
         </div>
 
@@ -65,8 +65,32 @@ const Equipo = () => {
             alt="Pilates"
             className="mx-auto mb-4"
           />
-          <p className="text-blue-900 font-semibold">Nombre Miembro 5</p>
+          <p className="text-blue-900 font-semibold">Laura Fernández</p>
           <p className="text-gray-500 text-md">Instructora de Pilates</p>
+        </div>
+
+        {/* Sexto miembro del equipo */}
+        <div className="text-center">
+          <img
+            src="https://placehold.co/300x300"
+            alt="Pilates"
+            className="mx-auto mb-4"
+          />
+          <p className="text-blue-900 font-semibold">Juan Luis Ruíz</p>
+          <p className="text-gray-500 text-md">
+            Fisioterapeuta e Instructor de Pilates Terapéutico
+          </p>
+        </div>
+
+        {/* Séptimo miembro del equipo */}
+        <div className="text-center">
+          <img
+            src="https://placehold.co/300x300"
+            alt="Pilates"
+            className="mx-auto mb-4"
+          />
+          <p className="text-blue-900 font-semibold">Carlos Dieguez</p>
+          <p className="text-gray-500 text-md">Podólogo</p>
         </div>
       </div>
     </div>
