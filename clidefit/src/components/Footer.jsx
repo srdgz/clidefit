@@ -60,7 +60,7 @@ const Footer = () => {
             alt="Logo"
           />
           <p className="text-white font-semibold">
-            © 2023 | CLIDEFIT <br />
+            © 2024 | CLIDEFIT <br />
             Tu clínica de fisioterapia y salud
           </p>
         </div>
