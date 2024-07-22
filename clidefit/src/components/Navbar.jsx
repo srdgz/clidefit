@@ -119,6 +119,9 @@ const Navbar = () => {
               <Link to="/equipo">Equipo</Link>
             </li>
             <li>
+              <Link to="/interes">De Interés</Link>
+            </li>
+            <li>
               <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
@@ -197,6 +200,14 @@ const Navbar = () => {
               className="hover:bg-white hover:underline hover:underline-offset-4 hover:text-blue-900"
             >
               Equipo
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/interes"
+              className="hover:bg-white hover:underline hover:underline-offset-4 hover:text-blue-900"
+            >
+              De Interés
             </Link>
           </li>
           <li>

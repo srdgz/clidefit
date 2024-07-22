@@ -8,6 +8,7 @@ import Nutricion from "../pages/Nutrición.jsx";
 import Podologia from "../pages/Podologia.jsx";
 import Pilates from "../pages/Pilates.jsx";
 import Equipo from "../pages/Equipo.jsx";
+import Interes from "../pages/Interes.jsx";
 import Contacto from "../pages/Contacto.jsx";
 import Cookies from "../pages/Cookies.jsx";
 import Aviso from "../pages/Aviso.jsx";
@@ -30,6 +31,7 @@ const Router = () => {
         <Route path="/podologia" element={<Podologia />} />
         <Route path="/pilates" element={<Pilates />} />
         <Route path="/equipo" element={<Equipo />} />
+        <Route path="/interes" element={<Interes />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/politica-cookies" element={<Cookies />} />
         <Route path="/aviso-legal" element={<Aviso />} />
