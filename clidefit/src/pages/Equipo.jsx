@@ -1,11 +1,17 @@
+import Fisio from "../assets/equipo/Fisio.jpg";
+import Dietista from "../assets/equipo/Dietista.jpg";
+import Pilates from "../assets/equipo/Pilates.jpg";
+import Podologo from "../assets/equipo/Podologo.jpg";
+import Psicologa from "../assets/equipo/Psicologa.jpg";
+import Logo from "../assets/ClidefitLogoCompleto1.png";
 const Equipo = () => {
   return (
     <div className="p-8 mt-32 xl:mx-32">
       <div className="text-center mb-32">
         <img
-          src="https://placehold.co/700x500"
+          src={Logo}
           alt="Equipo Clidefit"
-          className="mx-auto mb-4"
+          className="mx-auto mb-4 w-1/2 h-auto"
         />
         <p className="text-4xl text-blue-900 font-bold mb-6">Equipo Clidefit</p>
         <p className="text-gray-500 text-lg">
@@ -27,44 +33,28 @@ const Equipo = () => {
 
         {/* Segundo miembro del equipo */}
         <div className="text-center">
-          <img
-            src="https://placehold.co/300x300"
-            alt="Fisioterapia"
-            className="mx-auto mb-4"
-          />
+          <img src={Fisio} alt="Fisioterapia" className="mx-auto mb-4" />
           <p className="text-blue-900 font-semibold">Sergio Contreras</p>
           <p className="text-gray-500 text-md">Fisioterapeuta</p>
         </div>
 
         {/* Tercer miembro del equipo */}
         <div className="text-center">
-          <img
-            src="https://placehold.co/300x300"
-            alt="Nutrición"
-            className="mx-auto mb-4"
-          />
+          <img src={Dietista} alt="Nutrición" className="mx-auto mb-4" />
           <p className="text-blue-900 font-semibold">Alejandro Rodríguez</p>
           <p className="text-gray-500 text-md">Dietista</p>
         </div>
 
         {/* Cuarto miembro del equipo */}
         <div className="text-center">
-          <img
-            src="https://placehold.co/300x300"
-            alt="Psicología"
-            className="mx-auto mb-4"
-          />
+          <img src={Psicologa} alt="Psicología" className="mx-auto mb-4" />
           <p className="text-blue-900 font-semibold">Laura Morales</p>
           <p className="text-gray-500 text-md">Psicóloga</p>
         </div>
 
         {/* Quinto miembro del equipo */}
         <div className="text-center">
-          <img
-            src="https://placehold.co/300x300"
-            alt="Pilates"
-            className="mx-auto mb-4"
-          />
+          <img src={Pilates} alt="Pilates" className="mx-auto mb-4" />
           <p className="text-blue-900 font-semibold">Laura Fernández</p>
           <p className="text-gray-500 text-md">Instructora de Pilates</p>
         </div>
@@ -84,11 +74,7 @@ const Equipo = () => {
 
         {/* Séptimo miembro del equipo */}
         <div className="text-center">
-          <img
-            src="https://placehold.co/300x300"
-            alt="Pilates"
-            className="mx-auto mb-4"
-          />
+          <img src={Podologo} alt="Pilates" className="mx-auto mb-4" />
           <p className="text-blue-900 font-semibold">Carlos Dieguez</p>
           <p className="text-gray-500 text-md">Podólogo</p>
         </div>
