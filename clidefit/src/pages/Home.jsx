@@ -8,6 +8,7 @@ import ClidefitFisioAvanzada from "../assets/ClidefitFisioAvanzada.jpg";
 import ClidefitPsico from "../assets/ClidefitPsico.jpg";
 import ClidefitNutricion from "../assets/ClidefitNutricion.jpg";
 import ClidefitPilates from "../assets/ClidefitPilates.jpg";
+import ClidefitPodologia from "../assets/ClidefitPodologia.jpg";
 
 const Home = () => {
   return (
@@ -42,6 +43,11 @@ const Home = () => {
         img={ClidefitPilates}
         title="Pilates y entrenamiento personal"
         description="¿Buscas fortalecer tu cuerpo y mente de una manera suave pero efectiva? Descubre los beneficios del pilates en Clidefit. Nuestras clases te ayudarán a mejorar la flexibilidad, la fuerza y la postura, ¡todo en un ambiente acogedor y dirigido por instructores dedicados!"
+      />
+      <CardDer
+        img={ClidefitPodologia}
+        title="Podología"
+        description="¡Dale a tus pasos el cuidado que se merecen con los profesiones en podología de Clidefit!"
       />
     </>
   );
