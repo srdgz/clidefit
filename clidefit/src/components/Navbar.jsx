@@ -105,7 +105,10 @@ const Navbar = () => {
                   <Link to="/psicologia">Psicología</Link>
                 </li>
                 <li>
-                  <Link to="/nutricion">Nutrición</Link>
+                  <Link to="/nutricion">Nutrición y Dietética</Link>
+                </li>
+                <li>
+                  <Link to="/podologia">Podología</Link>
                 </li>
                 <li>
                   <Link to="/pilates">Pilates</Link>
@@ -173,7 +176,12 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/nutricion" onClick={closeDropdown}>
-                  Nutrición
+                  Nutrición y Dietética
+                </Link>
+              </li>
+              <li>
+                <Link to="/podologia" onClick={closeDropdown}>
+                  Podología
                 </Link>
               </li>
               <li>

@@ -50,7 +50,7 @@ const Servicios = () => {
             className="w-full h-80 object-cover mb-4 rounded-md"
           />
           <h2 className="text-xl text-blue-900 font-semibold mb-4">
-            Dietética
+            Nutrición y Dietética
           </h2>
           <p className="text-gray-500 text-md mb-4 flex-grow">
             ¡Transforma tu estilo de vida y alcanza tus metas de bienestar con
@@ -99,6 +99,32 @@ const Servicios = () => {
           </Link>
         </div>
         {/* Servicio 4 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col h-full">
+          <img
+            src="https://placehold.co/400x300"
+            alt="Podologia"
+            className="w-full h-80 object-cover mb-4 rounded-md"
+          />
+          <h2 className="text-xl text-blue-900 font-semibold mb-4">
+            Podología
+          </h2>
+          <p className="text-gray-500 text-md mb-4 flex-grow">
+            En Clidefit, tu salud es nuestra prioridad.
+            <br />
+            Confía en nuestro equipo de profesionales en{" "}
+            <strong>podología</strong> dedicados a ofrecerte los mejores
+            cuidados.
+            <br />
+            ¡Cuida tus pies y disfruta de una vida activa y sin molestias!
+          </p>
+          <Link
+            to="/podologia"
+            className="btn rounded-full shadow-lg bg-blue-900 text-white text-xl border-2 border-blue-900 hover:bg-white hover:text-gray-800 hover:border-blue-900"
+          >
+            Más Detalles
+          </Link>
+        </div>
+        {/* Servicio 5 */}
         <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col h-full">
           <img
             src="https://placehold.co/400x300"

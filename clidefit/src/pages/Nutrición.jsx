@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Nutricion = () => {
   return (
     <div className="mt-32 p-8 xl:mx-32">
@@ -77,6 +79,15 @@ const Nutricion = () => {
             orientación experta y alcanzar tus objetivos de bienestar.
           </p>
         </div>
+      </div>
+      <div className="mb-14">
+        <Link
+          to="https://app.clinic-cloud.com/citaonline.php/CLIDEFIT"
+          target="_blank"
+          className="btn rounded-full shadow-lg bg-blue-900 text-white border-2 border-blue-900 hover:bg-white hover:text-gray-800 hover:border-blue-900"
+        >
+          RESERVA TU CITA
+        </Link>
       </div>
     </div>
   );

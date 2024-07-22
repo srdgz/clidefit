@@ -17,7 +17,10 @@ const Footer = () => {
             Psicología
           </Link>
           <Link to={"/nutricion"} className="link link-hover text-white">
-            Nutrición
+            Nutrición y Dietética
+          </Link>
+          <Link to={"/podologia"} className="link link-hover text-white">
+            Podología
           </Link>
           <Link to={"/pilates"} className="link link-hover text-white">
             Pilates

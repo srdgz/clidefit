@@ -5,6 +5,7 @@ import Servicios from "../pages/Servicios.jsx";
 import Fisioterapia from "../pages/Fisioterapia.jsx";
 import Psicologia from "../pages/Psicologia.jsx";
 import Nutricion from "../pages/Nutrición.jsx";
+import Podologia from "../pages/Podologia.jsx";
 import Pilates from "../pages/Pilates.jsx";
 import Equipo from "../pages/Equipo.jsx";
 import Contacto from "../pages/Contacto.jsx";
@@ -26,6 +27,7 @@ const Router = () => {
         <Route path="/fisioterapia" element={<Fisioterapia />} />
         <Route path="/psicologia" element={<Psicologia />} />
         <Route path="/nutricion" element={<Nutricion />} />
+        <Route path="/podologia" element={<Podologia />} />
         <Route path="/pilates" element={<Pilates />} />
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/contacto" element={<Contacto />} />
