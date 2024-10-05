@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { BlobSvg } from "../utils/BlobSvg";
+import { BlobSvg } from "../utils/BlobSvg.js";
 
 const CardDer = ({ img, title, description }) => {
   return (
