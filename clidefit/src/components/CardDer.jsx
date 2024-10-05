@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { BlobSvg } from "../utils/BlobSvg.js";
+import { blobSvg } from "../utils/BlobSvg.js";
 
 const CardDer = ({ img, title, description }) => {
   return (
@@ -10,7 +10,7 @@ const CardDer = ({ img, title, description }) => {
           height: "100%",
           width: "100%",
           background: `url('data:image/svg+xml,${encodeURIComponent(
-            BlobSvg
+            blobSvg
           )}')`,
         }}
       ></div>
