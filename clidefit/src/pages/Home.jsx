@@ -9,6 +9,7 @@ import ClidefitPsico from "../assets/ClidefitPsico.jpg";
 import ClidefitNutricion from "../assets/ClidefitNutricion.jpg";
 import ClidefitPilates from "../assets/ClidefitPilates.jpg";
 import ClidefitPodologia from "../assets/ClidefitPodologia.jpg";
+import Reviews from "../components/Reviews.jsx";
 
 const Home = () => {
   return (
@@ -49,6 +50,7 @@ const Home = () => {
         title="Podología"
         description="¡Dale a tus pasos el cuidado que se merecen con los profesiones en podología de Clidefit!"
       />
+      <Reviews />
     </>
   );
 };

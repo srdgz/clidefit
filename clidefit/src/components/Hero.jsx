@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Hero = ({ title }) => {
   return (
     <section className="hero h-auto py-2 bg-teal-500">
@@ -6,6 +8,10 @@ const Hero = ({ title }) => {
       </div>
     </section>
   );
+};
+
+Hero.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 
 export default Hero;

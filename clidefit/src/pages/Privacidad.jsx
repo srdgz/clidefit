@@ -218,12 +218,12 @@ const Privacidad = () => {
         mismos. Derecho de rectificación: Es el derecho del Usuario a que se
         modifiquen sus datos personales que resulten ser inexactos o, teniendo
         en cuenta los fines del tratamiento, incompletos. Derecho de supresión
-        ("el derecho al olvido"): Es el derecho del Usuario, siempre que la
-        legislación vigente no establezca lo contrario, a obtener la supresión
-        de sus datos personales cuando estos ya no sean necesarios para los
-        fines para los cuales fueron recogidos o tratados; el Usuario haya
-        retirado su consentimiento al tratamiento y este no cuente con otra base
-        legal; el Usuario se oponga al tratamiento y no exista otro motivo
+        (&quot;el derecho al olvido&quot;): Es el derecho del Usuario, siempre
+        que la legislación vigente no establezca lo contrario, a obtener la
+        supresión de sus datos personales cuando estos ya no sean necesarios
+        para los fines para los cuales fueron recogidos o tratados; el Usuario
+        haya retirado su consentimiento al tratamiento y este no cuente con otra
+        base legal; el Usuario se oponga al tratamiento y no exista otro motivo
         legítimo para continuar con el mismo; los datos personales hayan sido
         tratados ilícitamentemente; los datos personales deban suprimirse en
         cumplimiento de una obligación legal; o los datos personales hayan sido
@@ -256,8 +256,8 @@ const Privacidad = () => {
         perfiles, existente salvo que la legislación vigente establezca lo
         contrario. Así pues, el Usuario podrá ejercitar sus derechos mediante
         comunicación escrita dirigida al Responsable del tratamiento con la
-        referencia "RGPD-www.clidefit.com", especificando: Nombre, apellidos del
-        Usuario y copia del DNI. En los casos en que se admita la
+        referencia &quot;RGPD-www.clidefit.com&quot;, especificando: Nombre,
+        apellidos del Usuario y copia del DNI. En los casos en que se admita la
         representación, será también necesaria la identificación por el mismo
         medio de la persona que representa al Usuario, así como el documento
         acreditativo de la representación. La fotocopia del DNI podrá ser

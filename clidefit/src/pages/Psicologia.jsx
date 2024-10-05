@@ -6,7 +6,6 @@ const Psicologia = () => {
       <h1 className="text-4xl text-blue-900 font-bold text-center mb-6">
         Psicología
       </h1>
-
       <div className="grid grid-cols-1 gap-8 lg:gap-12">
         <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col lg:flex-row items-center">
           <img
@@ -23,8 +22,6 @@ const Psicologia = () => {
             </ul>
           </div>
         </div>
-
-        {/* Información sobre los servicios */}
         <div className="flex-grow mt-8 lg:mt-0 mb-20">
           <h2 className="text-2xl text-blue-900 font-semibold mb-4">
             Psicología para todos
